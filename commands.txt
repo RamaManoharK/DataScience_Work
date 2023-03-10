@@ -8,6 +8,13 @@ git config --global user.name "ramamanohark"
 # initializing the git repository
 git init
 
+<<<<<<< HEAD
+=======
+or
+
+git -c init.defaultBranch=main init
+
+>>>>>>> c850e34 (second commit)
 # adding all the files from the current directory
 git add .
 
@@ -36,4 +43,14 @@ git pull origin master --rebase
 ====================================
 
 import shutil
+<<<<<<< HEAD
 shutil.rmtree('/home/jovyan/work/clone', ignore_errors=True)
+=======
+shutil.rmtree('/home/jovyan/work/clone', ignore_errors=True)
+=============================
+
+You have basically two options:
+
+Add the tracking information: as git helpfully prints in the console: git branch --set-upstream-to=origin/X X, then git pull, git status, git merge, git rebse, git push without arguments will default to the tracking branch, and it will work as expected.
+Kindly refuse to add tracking information. Then you must do the full commands: git fetch origin, then git rebase origin/X or git merge origin/X, and git push origin X.
+>>>>>>> c850e34 (second commit)
