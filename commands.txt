@@ -1,0 +1,39 @@
+git commands :
+================================
+
+#setting up user email & user name for git session
+git config --global user.email "ramamanohar.kamarsa@outlook.com" 
+git config --global user.name "ramamanohark"
+
+# initializing the git repository
+git init
+
+# adding all the files from the current directory
+git add .
+
+# commiting the changes 
+git commit -m "notes"
+
+# adding all code to main branch
+git branch -M main
+
+# adding remote repository to the main origin
+
+git repository add origin https://github.com/RamaManohar5/DataScience_FullStackPython.git
+
+if error "origin already exists"
+
+git repository remove origin
+
+git repository add origin "git reposiry"
+
+# pusing the code to repository
+
+git push -u origin main
+
+if error
+git pull origin master --rebase
+====================================
+
+import shutil
+shutil.rmtree('/home/jovyan/work/clone', ignore_errors=True)

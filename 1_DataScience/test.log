@@ -1,0 +1,24 @@
+INFO:root:this is my line of execution
+INFO:root:this is my line of execution
+ERROR:root:this is the error
+CRITICAL:root:this is critical error
+WARNING:root:this is warning msg
+INFO:root:this is my line of execution
+ERROR:root:this is the error
+CRITICAL:root:this is critical error
+WARNING:root:this is warning msg
+INFO:root:this is my line of execution
+ERROR:root:this is the error
+CRITICAL:root:this is critical error
+WARNING:root:this is warning msg
+ERROR:Comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 6455eb0c-2ad2-4f82-b68e-6c73b7a122ca
+INFO:root:this is my info log
+INFO:root:this is my line of execution
+ERROR:root:this is the error
+CRITICAL:root:this is critical error
+WARNING:root:this is warning msg
+INFO:root:this is my info log
+ERROR:Comm:No such comm target registered: jupyter.widget.control
+WARNING:Comm:No such comm: 89bf052e-57af-41bf-9463-bbb8cc2888c3
+INFO:root:this is my info log
