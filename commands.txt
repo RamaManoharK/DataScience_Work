@@ -26,7 +26,7 @@ git branch -M main
 
 # adding remote repository to the main origin
 
-git repository add origin https://github.com/RamaManohar5/DataScience_FullStackPython.git
+git remote add origin https://github.com/RamaManohar5/DataScience_FullStackPython.git
 
 if error "origin already exists"
 
